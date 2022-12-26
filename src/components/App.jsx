@@ -31,7 +31,7 @@ function App() {
         key={index} 
         id={index}
         title={noteItem.title}
-        context={noteItem.context}
+        content={noteItem.content}
         onDelete={deleteNote}
          />;
       })}
